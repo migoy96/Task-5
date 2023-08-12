@@ -1,0 +1,111 @@
+nav{
+    background-color: rgb(139, 180, 167);
+    color: white;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16pt;
+    width: 100%;
+    position: sticky;
+    display: inline-block;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+    background-color: lightpink;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%; 
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 16px;
+}
+
+nav a:hover{
+    color: black;
+    background-color: rgb(32, 72, 73);
+}
+
+.card{
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+}
+.card_title{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.card_text{
+    background-color: antiquewhite;
+}
+
+.card_btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    color: black;
+}
+.card_btn:hover{
+    background-color: rgb(145, 94, 94);
+    color: rgb(201, 201, 188);
+    transition: .5s;
+}
+
+.inline_cards{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer{
+    background-color: gray;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+table{
+    margin: auto;
+    padding: 10px;    
+}
+
+li{
+    padding: 5px;
+    list-style-type: none;
+}
+
+td{
+    padding-right: 300px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+.socmed a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.socmed a:hover{
+    color: rgb(43, 39, 39);
+    transition: 0.5s;
+}
